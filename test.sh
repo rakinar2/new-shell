@@ -277,9 +277,9 @@ case $aff in
     sleep 5;
     echo "receiving objects 6 of 11...";
     sleep 10;
-    echo -e "\e[31E: Can't Mount /system ! Error in emmc@android: permission denied. (707)\e[0m";
+    echo -e "\e[31m E: Can't Mount /system ! Error in emmc@android: permission denied. (707)\e[0m";
     sleep 0.2;
-    echo -e "\e[33W: Can't Access /system/bin/libcats/ ! /system is not Mounted! \e[0m";
+    echo -e "\e[33m W: Can't Access /system/bin/libcats/ ! /system is not Mounted! \e[0m";
     sleep 0.6;
     echo "Installation of object 6 of 11 aborted.";
     sleep 0.2;
